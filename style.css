@@ -10,6 +10,11 @@ body {
   line-height: 1.6;
 }
 
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -23,6 +28,12 @@ body {
     width: 500px;
     margin: 0 auto;
   }
+
+  .card {
+    padding: 18px;
+    width: 300px;
+    margin: 18px auto;
+  }
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
@@ -30,6 +41,13 @@ body {
     width: 300px;
     margin: 0 auto;
   }
+
+  .card {
+    padding: 18px;
+    width: 270px;
+    margin: 15px auto;
+  }
+
 }
 
 .card {
@@ -37,6 +55,7 @@ body {
   text-align: center;
   
   padding: 30px;
+  width: 480px;
   margin: 24px auto;
   
   border-radius: 5px;
